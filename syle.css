@@ -1,0 +1,507 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+font-family: "montserrat";
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    align-items: center;
+position: fixed;
+width: 95%;
+z-index: 1000;
+
+    
+}
+.header{
+    background-color: white
+    
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 40px;
+    
+    
+}
+.bntLogin{
+    background-color: #204e51;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+    
+
+}
+.bntsing{
+    background-color:white;
+    padding: 13px 45px;
+    border: 2px solid #204e51;
+    border-radius: 8px;    
+    font-size: 22px;
+}
+.hero{
+
+background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url( ./image\ 1.png);
+height: 570px;
+text-align: center;
+padding: 40px 100px;
+color: white ;
+background-repeat: no-repeat;
+background-size: cover;
+    
+}
+.hero h1{
+    padding-top: 40px;
+    font-size: 85px;
+}
+.hero-1{
+    background-color:green;
+    padding: 13px 30px;
+    border: 2px solid #204e51;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+    gap: 30px;
+
+}
+.hero-2{
+    background-color:white;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.main2{
+    width: 500px;
+    
+}
+.main2 h1{
+    font-size: 60px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.main3 img{
+
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.main3{
+    position: relative;
+}
+.main3 h2{
+    background-color: red;
+    width: 150px;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute; 
+    bottom: 50px;
+    left: 150px;
+}
+.main2 p{
+   padding-bottom: 22px; 
+}
+.service{
+    text-align: center;
+    margin: 60px 0px;
+}
+.service h1{
+    font-size: 70px;
+}
+.service p{
+    margin: 20px 310px;
+    font-size: 20px;
+}
+
+.service1{
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15px;
+    color: #204e51;
+    box-shadow: 0px 3px 6px rgb(50, 47, 47) ;
+    
+}
+
+
+.service1 h1{
+    padding-top: 20px;
+}
+.service-parent{
+    display: flex;
+    justify-content: center;
+}
+.service1 img{
+    width: 100px;
+    padding: 30px 70px;
+    border-radius: 30px;
+
+}
+
+.service{
+    text-align: center;
+    margin: 60px 0px;
+}
+.product1{
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+
+
+}
+
+
+.product{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 70px;
+
+    
+}
+.product1 img{
+    width: 170px;
+    border-radius: 18px;
+    margin-bottom: 40px;
+
+    
+    
+
+}
+.product1{
+    padding: 20px;
+    box-shadow:  0px 3px 6px rgb(50, 47, 47)  ;
+
+}
+.sustain{
+    height: 400px;
+    
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url( ./image\ 1.png);
+    color: white;
+    padding-left: 90px;
+    padding-top: 140px
+    
+}
+.sustain h1{
+    font-size: 50px;
+    padding: 20px;
+
+}
+.benefit-left{
+    width: 560px;
+}
+.benefit{
+    display:flex ;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+.benefit-right{
+    width: 600px;
+    height: 600px;
+    background-color: #204e51;
+    border-radius: 22px;
+}
+.benefit-left h1{
+    font-size: 70px;
+    margin: 20px 12px;
+}
+
+.benefit-left p{
+    margin: 40px 0px;
+    
+}
+.icon{
+    display: flex;
+    gap: 35px;
+    color: white;
+    margin: 20px;
+    margin: 60px 80px;
+
+} 
+.icon i {
+    font-size: 60px;
+
+}
+
+
+.review{
+    width: 100%;
+    height: 400px;
+    background-color: #204e51;
+    border-radius: 20px;
+
+}
+
+.t-parent{
+    display: grid;
+    grid-template-columns:  0px 900px 0px;
+    gap: 60px;
+    justify-content: center;
+}
+
+.t-parent i{
+    color: white;
+    font-size 60px;
+    background-color:red;
+    margin-top: 200px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.review2 img{
+    height: 300px;
+    width: 370px;
+    border-radius: 10px;
+}
+.review2{
+    padding: 30px 60px;
+    background-color: #204e51;
+
+    padding-top: 60px;
+    display: flex;
+    gap: 50px;
+    color: white;
+    border-radius: 20px;
+}
+.RED{
+    padding-top: 70px;
+} 
+.RED h1{
+    padding-bottom: 40px ;
+}
+.RED h4{
+    padding-bottom: 10px;
+    color: #4f8185;
+}
+.m-left{
+    background-color: #204e51;
+    
+    color: white;
+    padding: 30px 40px;    
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    
+    
+    font-size: 20px;
+
+}
+.man-u{
+    display: flex;
+    justify-content: space-between;
+    gap: 600px;
+}
+.cade2 ul{
+    display: flex;
+    
+
+}
+.footar{
+    background-color: #204e51;
+    width: 1300px;
+    height: 500px;
+    color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 170px;
+    margin-top: 40px;
+}
+.footar p{
+    width: 400px;
+    margin-bottom : 20px;
+}
+.ul-parent{
+    display: flex;
+    
+    
+}
+.ul-parent ul{
+list-style: none;
+font-size: 20px;
+gap: 50px;
+margin-right: 100px;
+}
+@media screen and (max-width:600px){
+    .header ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .header i{
+        font-size: 50px;
+    }
+    .header{
+        padding: 20px;
+    }
+    .header h1{
+        font-size: 25px;
+    }
+    .hero{
+        padding: 15px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero p{
+        margin: 30px 0px;
+    }
+    .bntLogin{
+        margin-bottom: 30px;
+    }
+    .main{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .main2, .main3{
+        width: 300px;
+    }
+    .main2 h1{
+font-size: 20px;
+    }
+    .main3 img{
+        width: 300px;
+
+    }
+    .main3 h2{
+        left: 40px;
+        
+    }
+    .service h1{
+        font-size: 38px;
+    }
+    .service p{
+        margin: 10px;
+    }
+    .service-parent{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .product {
+        flex-direction: column;
+
+    }
+    .product1 {
+        width: 200px;
+    }
+    .sustain h1{
+        font-size: 20px;
+        
+
+    }
+.sustain{
+    padding: 20px;
+}
+
+
+.benefit{   
+    flex-direction: column;
+    padding: 0px;
+    padding: 0px;
+    margin: 20px;
+}
+.benefit-left .benefit-right{
+    width: 300px;
+
+}
+.benefit-left h1{
+    font-size: 40px;
+}
+.t-parent{
+    grid-template-columns: 20px 250px 20px;
+}
+.review2{
+    height: 200px;
+    
+}
+.review2 img{
+    width: 50px;
+    height: 50px;
+}
+.review i{
+    font-size: 20px;
+    margin-top: 100px;
+
+
+}
+
+.review {
+    background-color: white;
+}
+.RED h1{
+    font-size: 15px;
+    
+}
+.RED{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+
+    gap: 10px;
+
+}
+
+.RED h4{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    
+}
+.RED p{
+    font-size: 12px;
+    margin: 20px 0px;
+
+}
+
+.footar{
+    padding: 35px 70px;
+}
+.footar h1{
+    font-size: 15px
+
+}
+.footar p{
+    margin: 15px;
+}
+.ul-parent{
+    flex-direction: column;
+margin-bottom: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
